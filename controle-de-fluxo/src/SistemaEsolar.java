@@ -12,20 +12,15 @@ public class SistemaEsolar {
 
         media = (nota1 + nota2)/2;
 
-        if (media == 7) {
-            System.out.println("Parabéns o aluno foi aprovado na média!");
-        }
-        if (media>7 && media<=10) {
-            System.out.println("Parabéns você foi aprovado com nota acima da média!");
-            
-        }
-        if (media<7) {
-            System.out.println("Infelizmente você ficou reprovado!");
-            
-        }
-        if (media>10) {
-            System.out.println("invalido!");
-        }
+        if (media == 7)
+        System.out.println("Parabéns o aluno foi aprovado na média!");
+        else if (media>7 && media<=10) 
+        System.out.println("Parabéns você foi aprovado com nota acima da média!");   
+        else if (media<7) 
+        System.out.println("Infelizmente você ficou reprovado!");
+        else
+        System.out.println("invalido!");
+        
 
 
     }
